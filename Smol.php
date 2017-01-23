@@ -39,4 +39,39 @@ $Animal = new Dog();
 $Animal->name = "'C'tan the destroyer of worlds'"."<br>";
 echo $Animal->Greet();
 ?>
-just look at the code on github :#
+just look at the code on www.github.com/Styrkar1/Vef-vor-2017
+
+<p>-----------------------------------------------------------------</p>
+
+Ég skil það þannig að Autoloader er function sem maður búr til í byrjun á skjali sem hlaðar inn önnur skjöl strax þegar þau eru delcaruð þannig að ef ég myndi segja t.d <p>$fileman = new Fileman(); myndi autoloader ná í Fileman.php úr pre-defined skjali strax.</p>
+
+<p>-----------------------------------------------------------------</p>
+
+<?php
+	class User
+	{
+		protected $email;
+		protected $password;
+
+		public function setPassword($password)
+		{
+			$this->password = $password;
+		}
+
+		public function getPassword($password)
+		{
+			return $this->password;
+		}
+
+		public function setEmail($email)
+		{
+			$this->email = $email;
+		}
+
+		public function getEmail($email)
+		{
+			return $this->email;
+		}
+	}
+
+  ?>
