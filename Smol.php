@@ -53,25 +53,40 @@ just look at the code on www.github.com/Styrkar1/Vef-vor-2017
 		protected $email;
 		protected $password;
 
-		public function setPassword($password)
+		public function setPassword($new_password)
 		{
-			$this->password = $password;
+			$this->password = $new_password;
 		}
 
-		public function getPassword($password)
+		public function getPassword()
 		{
 			return $this->password;
 		}
 
-		public function setEmail($email)
+		public function setEmail($new_email)
 		{
-			$this->email = $email;
+			$this->email = $new_email;
 		}
 
-		public function getEmail($email)
+		public function getEmail()
 		{
 			return $this->email;
 		}
+
+		public function __construct($new_email,$new_password) {
+			$this->email = $new_email;
+			$this->password = $new_password;
+		}
 	}
 
+	$User = new User('password','Email')
   ?>
+<p>yet again, look in the github code to see the class</p>
+www.github.com/Styrkar1/Vef-vor-2017
+
+<p>-----------------------------------------------------------------</p>
+
+<p>Eitt af aðal ástæðunum til að nota OOP er að minnka endurtökun, það er hægt að skrifa einn hlut einu sinni og síðan kalla á það mörgu sinnum með inheritence eða clössum til að spara pláss og tíma.</p>
+<p>En að nota mikið af OOP getur leitt að það verðut erfitt að breyta vefsíðuni, og það verður erfiðara að búa til vefsíðuna, og ef eitt mikið notað class er eitt getur verið mikið mál að laga vefsíðuna.</p>
+
+<p>-----------------------------------------------------------------</p>
