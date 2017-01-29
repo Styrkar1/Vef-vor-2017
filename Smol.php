@@ -79,7 +79,7 @@ just look at the code on www.github.com/Styrkar1/Vef-vor-2017
 		}
 	}
 
-	$User = new User('password','Email')
+	$User = new User('email.com','SuperSecure')
   ?>
 <p>yet again, look in the github code to see the class</p>
 www.github.com/Styrkar1/Vef-vor-2017

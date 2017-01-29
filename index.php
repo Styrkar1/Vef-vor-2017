@@ -1,3 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Ayy lmao</title>
+    
+     
+</head>
+
+<body>
+
+    <header id="header"><p>What is life</p></header>
+
+    <div id="container">
+
+        <main id="center" class="column">
+            <article>
+            
+                <h1>The raven</h1>
 <p>Once upon a midnight dreary, while I pondered, weak and weary, 
 Over many a quaint and curious volume of forgotten lore— 
     While I nodded, nearly napping, suddenly there came a tapping, 
@@ -26,7 +46,7 @@ Some late visitor entreating entrance at my chamber door;—
 That I scarce was sure I heard you”—here I opened wide the door;— 
             Darkness there and nothing more. </p>
 
-    <p>Deep into that darkness peering, long I stood there wondering, fearing, 
+   <p>Deep into that darkness peering, long I stood there wondering, fearing, 
 Doubting, dreaming dreams no mortal ever dared to dream before; 
     But the silence was unbroken, and the stillness gave no token, 
     And the only word there spoken was the whispered word, “Lenore?” 
@@ -61,7 +81,7 @@ Though its answer little meaning—little relevancy bore;
 Bird or beast upon the sculptured bust above his chamber door, 
             With such name as “Nevermore.” </p>
 
-   <p> But the Raven, sitting lonely on the placid bust, spoke only 
+   <p>But the Raven, sitting lonely on the placid bust, spoke only 
 That one word, as if his soul in that one word he did outpour. 
     Nothing farther then he uttered—not a feather then he fluttered— 
     Till I scarcely more than muttered “Other friends have flown before— 
@@ -75,7 +95,7 @@ On the morrow he will leave me, as my Hopes have flown before.”
 Till the dirges of his Hope that melancholy burden bore 
             Of ‘Never—nevermore’.” </p>
 
-   <p> But the Raven still beguiling all my fancy into smiling, 
+    <p>But the Raven still beguiling all my fancy into smiling, 
 Straight I wheeled a cushioned seat in front of bird, and bust and door; 
     Then, upon the velvet sinking, I betook myself to linking 
     Fancy unto fancy, thinking what this ominous bird of yore— 
@@ -89,7 +109,7 @@ To the fowl whose fiery eyes now burned into my bosom’s core;
 But whose velvet-violet lining with the lamp-light gloating o’er, 
             She shall press, ah, nevermore! </p>
 
-   <p> Then, methought, the air grew denser, perfumed from an unseen censer 
+    <p>Then, methought, the air grew denser, perfumed from an unseen censer 
 Swung by Seraphim whose foot-falls tinkled on the tufted floor. 
     “Wretch,” I cried, “thy God hath lent thee—by these angels he hath sent thee 
     Respite—respite and nepenthe from thy memories of Lenore; 
@@ -103,7 +123,7 @@ Whether Tempter sent, or whether tempest tossed thee here ashore,
 Is there—is there balm in Gilead?—tell me—tell me, I implore!” 
             Quoth the Raven “Nevermore.” </p>
 
-   <p> “Prophet!” said I, “thing of evil!—prophet still, if bird or devil! 
+    <p>“Prophet!” said I, “thing of evil!—prophet still, if bird or devil! 
 By that Heaven that bends above us—by that God we both adore— 
     Tell this soul with sorrow laden if, within the distant Aidenn, 
     It shall clasp a sainted maiden whom the angels name Lenore— 
@@ -123,10 +143,45 @@ On the pallid bust of Pallas just above my chamber door;
     And the lamp-light o’er him streaming throws his shadow on the floor; 
 And my soul from out that shadow that lies floating on the floor 
             Shall be lifted—nevermore!</p>
+            
+            </article>                              
+        </main>
+
+        <nav id="left" class="column">
+        
 
 
+            <h3>Useless Links</h3>
+            <ul>
+                <li><a href="gallery.php">Gallery</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+                <li><a href="#">Link 4</a></li>
+                <li><a href="#">Link 5</a></li>
+            </ul>
+            <h3> Empty links</h3>
+            <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+                <li><a href="#">Link 4</a></li>
+                <li><a href="#">Link 5</a></li>
+            </ul>
 
+        </nav>
 
+        <div id="right" class="column">
+            <h3>;;OO</h3>
+        </div>
 
+    </div>
 
-            ayy lmao
+    <div id="footer-wrapper">
+        <footer id="footer">
+        <p><?php echo date("Y"); ?> &copy; The Main man my Emporor</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>
