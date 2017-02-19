@@ -13,4 +13,4 @@ hann er líka aðanlega noaður til að stjórna upplýsingum og hann er mikið 
 
 <p>-----------------------------------------------------------------</p>
 
-MV* á framenda þróun
+MV* er eitthvað
