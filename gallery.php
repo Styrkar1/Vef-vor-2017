@@ -81,7 +81,7 @@
             <h3>Useless Links</h3>
             <ul>
                 <li><a href="index.php">Home</a></li>
-                <li><a href="#">Link 2</a></li>
+                <li><a href="books.php">Books</a></li>
                 <li><a href="#">Link 3</a></li>
                 <li><a href="#">Link 4</a></li>
                 <li><a href="#">Link 5</a></li>
