@@ -13,4 +13,5 @@ hann er líka aðanlega noaður til að stjórna upplýsingum og hann er mikið 
 
 <p>-----------------------------------------------------------------</p>
 
-MV* er eitthvað
+Ég skil það þannig að MV* er það sem virkar aðeins öðruvísi frá MVC í þannig æleið að það er ekki endilega Model/View/controller
+T.d Model-View-Presenter(MVP) og Model-View-ViewModel (MVVM)
